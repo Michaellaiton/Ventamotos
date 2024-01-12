@@ -1,0 +1,68 @@
+body{
+    background-color: #f0f0f0;
+}
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    margin: 0;
+    background-color: white; /* Cambia esto para que coincida con el color de fondo de tu página */
+    padding: 40px;
+    border: 10px solid #ddd;
+    border-radius: 30px;
+ }
+ 
+ .form-container form {
+    display: flex;
+    flex-direction: column;
+    width: 250%;
+    max-width: 450px;
+    border-radius: 30px;
+    
+ }
+ 
+ .form-container form label {
+    margin-bottom: 10px;
+ }
+ 
+ .form-container form input[type="text"], 
+ .form-container form input[type="email"], 
+ .form-container form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f0f0f0;
+    border-radius: 35px;
+    margin-bottom: 10px;
+    border: 5px solid #f0f0f0 ;
+ }
+ 
+ .form-container form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 35px;
+ }
+ 
+ .form-container form button:hover {
+    opacity:0.9;
+ }
+
+
+ .form-container form a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #8d008b;
+    font-size: 1em;
+    transition: color 0.3s ease;
+   }
+   
+   .form-container form a:hover {
+    color: #ff00fb;
+   }

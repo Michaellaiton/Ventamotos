@@ -1,0 +1,50 @@
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   margin: 0;
+   background-color: #f0f0f0; /* Change this to match your page's background color */
+}
+.login-container {
+   width: 650px;
+   height: 450px;
+   padding: 20px;
+   background-color: white;
+   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+   border-radius: 5px;
+   text-align: center;
+   
+}
+
+.login-container h2 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.login-container label {
+   display: block;
+   margin-bottom: 10px;
+}
+
+.login-container input[type="text"], .login-container input[type="password"] {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+}
+
+.login-container button.loginButtonUnique {
+   background-color: #007BFF;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   opacity: 0.9;
+}
+
+.login-container button.loginButtonUnique:hover {
+   opacity:1;
+}
